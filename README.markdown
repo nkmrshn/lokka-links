@@ -10,7 +10,7 @@ Run these commands:
 
     $ cd public/plugin
     $ git clone git://github.com/nkmrshn/lokka-links.git
-    $ bundle exec rake -f public/plugin/lokka-links/Rakefile -r public/plugin/lokka-links/init.rb db:migrate
+    $ bundle exec rake -f public/plugin/lokka-links/Rakefile db:migrate
 
 Usage
 -----
