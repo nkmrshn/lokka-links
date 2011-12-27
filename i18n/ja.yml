@@ -8,11 +8,10 @@ ja:
   link_was_successfully_deleted: リンクを削除しました。
   link_sort_up: 上へ
   link_sort_down: 下へ
-  link:
-    id: ID
-    title: タイトル
-    url: URL
-    target: ターゲット
-    sort: 順番
-    created_at: 作成日時
-    updated_at: 更新日時
+  link_id: ID
+  link_title: タイトル
+  link_url: URL
+  link_target: ターゲット
+  link_sort: 順番
+  link_created_at: 作成日時
+  link_updated_at: 更新日時

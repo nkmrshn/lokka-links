@@ -1,14 +1,14 @@
 %h2= t.listing_links
 %table
   %tr
-    %th= t.link.sort
-    %th= t.link.title
-    %th= t.link.url
+    %th= t.link_sort
+    %th= t.link_title
+    %th= t.link_url
     %th{:colspan => 4}
   - @links.each_with_index do |link, i|
     %tr{:class => (i+1).odd? ? 'odd' : 'even'}
-      %td=h link.sort
-      %td=h link.title
+      %td=h t.link_sort
+      %td=h t.link_title
       %td
         %a{:href => "#{link.url}", :target => "#{link.target}"}=h link.url
       %td

@@ -8,11 +8,10 @@ en:
   link_was_successfully_deleted: Link was successfully deleted.
   link_sort_up: Up
   link_sort_down: Down
-  link:
-    id: ID
-    title: Title
-    url: URL
-    target: Target
-    sort: Sort
-    created_at: Created At
-    updated_at: Updated At
+  link_id: ID
+  link_title: Title
+  link_url: URL
+  link_target: Target
+  link_sort: Sort
+  link_created_at: Created At
+  link_updated_at: Updated At
