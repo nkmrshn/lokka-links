@@ -2,9 +2,9 @@
   %link{:rel => 'stylesheet', :href => '/plugin/lokka-links/views/link.css', :type => 'text/css'}
 - content_for :admin_aside do
   %li.link.parent
-    %h3.title= t.links
+    %h3.title= t('links')
     %ul 
       %li.list
-        %a{:href => '/admin/plugins/links'}= t.list
+        %a{:href => '/admin/plugins/links'}= t('list')
       %li.new
-        %a{:href => '/admin/plugins/links/new'}= t.new
+        %a{:href => '/admin/plugins/links/new'}= t('new')
